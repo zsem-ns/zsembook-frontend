@@ -13,33 +13,36 @@ export default abstract class Theme {
   }
 
   public static toggle() {
-    if(this.theme) {
+    if (this.theme) {
       this.set(false);
-      setLight();
+      setDark();
     }
     else {
       this.set(true);
-      setDark();
+      setLight();
     }
   }
 
   public static execute() {
-    if(this.theme === undefined)
+    if (this.theme === undefined)
       this.get();
-    if(this.theme === true)
+    if (this.theme === true) {
+      setLight();
+    } else {
       setDark();
+    }
   }
 }
 
 const updateMains = (dark: boolean) => {
   const mainColor = dark ? 'light-' : 'black-';
-  for(let i = 1; i < 6; i++) {
-    setVariable(`main-${i}00`, mainColor+i+'00'); 
+  for (let i = 1; i < 6; i++) {
+    setVariable(`main-${i}00`, mainColor + i + '00');
   }
 }
 
 const setVariable = (name: string, value: string, isDirect?: boolean) => {
-    document.documentElement.style.setProperty(`--${name}`, isDirect? value : `var(--${value})`);
+  document.documentElement.style.setProperty(`--${name}`, isDirect ? value : `var(--${value})`);
 }
 
 const setLight = () => {

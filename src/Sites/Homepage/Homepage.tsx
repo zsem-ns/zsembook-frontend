@@ -52,6 +52,11 @@ const Homepage = () => {
           alignItems: "center",
         }}
       >
+
+        <video controls className={classes.rolka}>
+          <source src="/Videos/Rolka_Rekrutacja.webm" type="video/webm" />
+        </video>
+
         <h2>Zespół Szkół Elektryczno - Mechanicznych w Nowym Sączu</h2>
         <p className={classes.schoolDesc}>
           Zespół Szkół Elektryczno-Mechanicznych w Nowym Sączu to renomowana
@@ -150,7 +155,7 @@ const Homepage = () => {
       <Wrapper>
         <h2>Autorzy</h2>
         <p className={classes.centerOnPhone}>
-          Wykonane przez uczniów klasy 2D ZSEM w Nowym Sączu
+          Wykonane przez uczniów ZSEM w Nowym Sączu
           <ul className={classes.authors}>
             <li>
               <Link to="https://github.com/BaderBC" target={"_blank"}>
@@ -177,9 +182,14 @@ const Homepage = () => {
                 Tomasz Kulig
               </Link>
             </li>
-            <Link to="https://github.com/avorty" target={"_blank"}>
+            <li>
+              <Link to="https://github.com/shadon874" target={"_blank"}>
+                Hubert Wróbel
+              </Link>
+            </li>
+            <Link to="https://github.com/zsem-ns" target={"_blank"}>
               <Icon.Github fontSize="48px" />
-              avorty
+              zsem-ns
             </Link>
           </ul>
         </p>

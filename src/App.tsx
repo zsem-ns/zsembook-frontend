@@ -26,6 +26,7 @@ import ResetPassword from './Sites/auth/ResetPassword/ResetPassword';
 import ResetPasswordLobby from './Sites/auth/ResetPassword/ResetPasswordLobby';
 import Survey from './Sites/Survey/Survey';
 import Statute from './Sites/Statute/Statute';
+import Theme from './Lib/Theme';
 
 const router = createBrowserRouter([
   {

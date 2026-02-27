@@ -9,6 +9,7 @@
     "@types/js-cookie": "^3.0.3",
     "@types/react": "^18.0.32",
     "@types/react-dom": "^18.0.11",
+    "ajv": "8.12.0",
     "cookie-ts": "^1.0.1",
     "env-cmd": "^10.1.0",
     "localforage": "^1.10.0",

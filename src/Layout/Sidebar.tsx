@@ -127,10 +127,16 @@ const Sidebar = () => {
                   icon: <Icon.QuestionCircleFill />,
                   notMobileOnly: true,
                 },
+                // {
+                //   destination: "/spotted",
+                //   label: "Spotted",
+                //   icon: <Icon.ChatRightDotsFill />,
+                //   notMobileOnly: true,
+                // },
                 {
-                  destination: "/spotted",
-                  label: "Spotted",
-                  icon: <Icon.ChatRightDotsFill />,
+                  destination: "https://linktr.ee/ZSEMTVOFFICIAL",
+                  label: "ZSEM TV",
+                  icon: <Icon.Film />,
                   notMobileOnly: true,
                 },
                 {
