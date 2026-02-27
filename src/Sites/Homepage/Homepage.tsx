@@ -53,9 +53,13 @@ const Homepage = () => {
         }}
       >
 
-        <video controls className={classes.rolka}>
-          <source src="/Videos/Rolka_Rekrutacja.webm" type="video/webm" />
-        </video>
+        <div className={classes.rolka}>
+          <iframe
+            src="https://drive.google.com/file/d/14C6HfDfIAJC44UzNIt7ObYVFZ5BbB37L/preview"
+            allow="autoplay"
+            title="ZSEM Video"
+          />
+        </div>
 
         <h2>Zespół Szkół Elektryczno - Mechanicznych w Nowym Sączu</h2>
         <p className={classes.schoolDesc}>
