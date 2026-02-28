@@ -58,6 +58,7 @@ const Homepage = () => {
             src="https://drive.google.com/file/d/14C6HfDfIAJC44UzNIt7ObYVFZ5BbB37L/preview"
             allow="autoplay"
             title="ZSEM Video"
+            
           />
         </div>
 
@@ -189,6 +190,11 @@ const Homepage = () => {
             <li>
               <Link to="https://github.com/shadon874" target={"_blank"}>
                 Hubert Wróbel
+              </Link>
+            </li>
+            <li>
+              <Link to="https://github.com/TenObcy125" target={"_blank"}>
+                Mariusz Gruca
               </Link>
             </li>
             <Link to="https://github.com/zsem-ns" target={"_blank"}>
