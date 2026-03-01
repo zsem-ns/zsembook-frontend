@@ -116,17 +116,17 @@ const Sidebar = () => {
                   label: "Ankieta",
                   icon: <Icon.UiRadios />,
                 },
-                {
-                  destination: "/events",
-                  label: "Wydarzenia",
-                  icon: <Icon.CardChecklist />,
-                },
-                {
-                  destination: "/faq",
-                  label: "FAQ",
-                  icon: <Icon.QuestionCircleFill />,
-                  notMobileOnly: true,
-                },
+                // {
+                //   destination: "/events",
+                //   label: "Wydarzenia",
+                //   icon: <Icon.CardChecklist />,
+                // },
+                // {
+                //   destination: "/faq",
+                //   label: "FAQ",
+                //   icon: <Icon.QuestionCircleFill />,
+                //   notMobileOnly: true,
+                // },
                 // {
                 //   destination: "/spotted",
                 //   label: "Spotted",
@@ -137,22 +137,21 @@ const Sidebar = () => {
                   destination: "https://linktr.ee/ZSEMTVOFFICIAL",
                   label: "ZSEM TV",
                   icon: <Icon.Film />,
-                  notMobileOnly: true,
                 },
-                {
-                  label: "",
-                  mobileOnly: true,
-                  icon: <Icon.List />,
-                  onClick: () => {
-                    setIsShown(!isShown);
-                  },
-                },
+                // {
+                //   label: "",
+                //   mobileOnly: true,
+                //   icon: <Icon.List />,
+                //   onClick: () => {
+                //     setIsShown(!isShown);
+                //   },
+                // },
               ]}
             />
           </div>
         </div>
         <div>
-          <LinkSection
+          {/* <LinkSection
             className={isShown ? classes.show : classes.hidden}
             elements={[
               {
@@ -204,8 +203,8 @@ const Sidebar = () => {
                 },
               },
               loginOrLogout,
-            ]}
-          />
+            ]} */}
+          {/* /> */}
         </div>
       </div>
     </>

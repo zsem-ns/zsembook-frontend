@@ -37,13 +37,13 @@ const Homepage = () => {
 
   return (
     <>
-      <div>
+      {/* <div>
         <h1>
           {User.isLogged
             ? `Witaj ${User.data.name} ${User.data.surname}!`
             : `Witaj na ZSEMBook!`}
         </h1>
-      </div>
+      </div> */}
       <Wrapper
         className={classes.zsemDesc}
         style={{
