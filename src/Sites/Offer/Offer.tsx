@@ -34,7 +34,7 @@ const Offer = () => {
             Regulamin rekrutacji
           </a>
         </p>
-        <h1>Technikum nr. 7</h1>
+        <h1>Technikum nr 7</h1>
         <div className={classes.offertItems}>
           <Wrapper>
             <div>

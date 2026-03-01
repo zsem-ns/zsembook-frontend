@@ -90,7 +90,7 @@ const Sidebar = () => {
               elements={[
                 {
                   destination: "/",
-                  label: "",
+                  label: "Start",
                   mobileOnly: true,
                   icon: <Icon.HouseFill />,
                 },

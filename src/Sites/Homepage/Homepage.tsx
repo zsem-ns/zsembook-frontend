@@ -73,7 +73,7 @@ const Homepage = () => {
           przykład takie jak:
         </p>
         <ul className={classes.descList}>
-          <li>Konkursy w różncych dziedzinach</li>
+          <li>Konkursy w różnych dziedzinach</li>
           <li>Olimpiady z możliwością wygrania atrakcyjnych nagród</li>
           <li>
             Rajd Elektryka, wydarzenie organizowane co roku, w okolicach jesieni
